@@ -1,0 +1,33 @@
+.app_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px 15px;
+}
+
+.item_label, 
+.btn, 
+.heart{
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 25px;
+}
+
+.star{ 
+    color: yellow;
+}
+
+.trash {
+    color: #9c9898;
+}
+
+.heart {
+    /* display: none; */
+    color: red;
+}

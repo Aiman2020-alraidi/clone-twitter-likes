@@ -1,0 +1,14 @@
+.form {
+  flex-grow: 1;
+}
+
+.input {
+  width: 90%;
+  padding: 10px;
+
+}
+
+.input::placeholder {
+  color: rgb(247, 240, 240);
+  font-weight: bold;
+}
